@@ -7,17 +7,13 @@
         <title>Joe Rees - Developer, Designer</title>
         <link rel="stylesheet" href="assets/css/tailwind.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
-            integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <!-- <script src="https://kit.fontawesome.com/740f0372a3.js" crossorigin="anonymous"></script> -->
         <script
             defer
             src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
@@ -36,7 +32,7 @@
                             class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-indigo-800 border border-indigo-800 rounded-md"
                             @click="navbarOpen = !navbarOpen"
                         >
-                            <i data-feather="menu"></i>
+                            <i class="fa-solid fa-bars"></i>
                         </button>
                     </div>
 
@@ -167,7 +163,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
 
@@ -193,7 +189,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
 
@@ -219,7 +215,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
 
@@ -245,7 +241,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
 
@@ -271,7 +267,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
 
@@ -297,7 +293,7 @@
                                 class="flex items-center justify-center xl:justify-start gap-3 font-medium text-indigo-800 text-md hover:text-indigo-600 transition ease-in-out duration-300"
                             >
                                 See Works
-                                <i data-feather="arrow-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -404,7 +400,7 @@
                             <div
                                 class="w-24 py-9 flex justify-center bg-indigo-50 text-indigo-500 rounded-md mb-5 md:mb-10"
                             >
-                                <i data-feather="bar-chart-2"></i>
+                                <i class="fas fa-2x fa-chart-simple"></i>
                             </div>
                         </div>
 
@@ -426,7 +422,7 @@
                             <div
                                 class="w-24 py-9 flex justify-center bg-indigo-50 text-indigo-500 rounded-md mb-5 md:mb-10"
                             >
-                                <i data-feather="dollar-sign"></i>
+                                <i class="fas fa-2x fa-sterling-sign"></i>
                             </div>
                         </div>
 
@@ -448,7 +444,7 @@
                             <div
                                 class="w-24 py-9 flex justify-center bg-indigo-50 text-indigo-500 rounded-md mb-5 md:mb-10"
                             >
-                                <i data-feather="search"></i>
+                                <i class="fas fa-2x fa-magnifying-glass"></i>
                             </div>
                         </div>
 
@@ -578,16 +574,8 @@
                     <h1
                         class="font-medium text-gray-700 text-2xl md:text-5xl mb-5"
                     >
-                        Contact with me
+                        Connect
                     </h1>
-
-                    <p
-                        class="font-normal text-gray-400 text-sm md:text-lg mb-20"
-                    >
-                        I’m not currently taking on new client work but feel
-                        free to contact me for any <br />
-                        other inquiries.
-                    </p>
 
                     <div
                         class="flex items-center justify-center space-x-4 md:space-x-8"
@@ -597,52 +585,42 @@
                             class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
                         >
                             <i
-                                data-feather="twitter"
+                                class="fab fa-2x fa-twitter"
                                 class="text-gray-500 hover:text-white transition ease-in-out duration-500"
                             ></i>
                         </a>
 
                         <a
+                            href="https://github.com/joedrees"
+                            class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
+                        >
+                            <i
+                            class="fab fa-2x fa-github"
+                            class="text-gray-500 hover:text-white transition ease-in-out duration-500"
+                            ></i>
+                        </a>
+
+                        <!-- <a
                             href="#"
                             class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
                         >
                             <i
-                                data-feather="dribbble"
-                                class="text-gray-500 hover:text-white transition ease-in-out duration-500"
+                            class="fab fa-2x fa-codepen"
+                            class="text-gray-500 hover:text-white transition ease-in-out duration-500"
                             ></i>
-                        </a>
+                        </a> -->
 
                         <a
-                            href="#"
+                            href="mailto:joe@joere.es"
                             class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
                         >
                             <i
-                                data-feather="facebook"
+                                class="fas fa-2x fa-at"
                                 class="text-gray-500 hover:text-white transition ease-in-out duration-500"
                             ></i>
                         </a>
 
-                        <a
-                            href="#"
-                            class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
-                        >
-                            <i
-                                data-feather="codepen"
-                                class="text-gray-500 hover:text-white transition ease-in-out duration-500"
-                            ></i>
-                        </a>
-
-                        <a
-                            href="#"
-                            class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
-                        >
-                            <i
-                                data-feather="at-sign"
-                                class="text-gray-500 hover:text-white transition ease-in-out duration-500"
-                            ></i>
-                        </a>
-
-                        <a
+                        <!-- <a
                             href="#"
                             class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-red-200 transition ease-in-out duration-300"
                         >
@@ -650,14 +628,10 @@
                                 data-feather="instagram"
                                 class="text-gray-500 hover:text-white transition ease-in-out duration-500"
                             ></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
         </footer>
-
-        <script>
-            feather.replace();
-        </script>
     </body>
 </html>
